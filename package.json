@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-express-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "ts-node server/server.ts --master",
+    "start:slave": "ts-node server/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "install": "^0.13.0",
+    "local-cors-proxy": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "npm": "^6.13.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.7.5",
+    "uuid": "^8.3.1"
+  }
+}
